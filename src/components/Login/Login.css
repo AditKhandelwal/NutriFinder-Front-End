@@ -1,0 +1,124 @@
+/* login.css */
+
+/* Reset default styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background: linear-gradient(135deg, #ffd38d, #ffb347);
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.login-container {
+  background-color: #fff7e6;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation: bounceIn 0.8s ease-in-out;
+}
+
+@keyframes bounceIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+h2 {
+  color: #ff6347; /* Tomato Red */
+  margin-bottom: 20px;
+  font-size: 36px;
+  text-shadow: 2px 2px 0 #ffcb9a;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  width: 300px;
+  height: 50px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 2px solid #ffb347;
+  border-radius: 10px;
+  font-size: 18px;
+  transition: border-color 0.3s ease;
+  background-color: #fff;
+  color: #333;
+}
+
+input:focus {
+  border-color: #ff6347;
+  outline: none;
+  animation: inputFocus 0.3s ease-in-out;
+}
+
+@keyframes inputFocus {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+button {
+  width: 200px;
+  height: 50px;
+  background-color: #ff6347; /* Tomato Red */
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  animation: fadeInUp 0.8s ease-in-out;
+  box-shadow: 0 5px 0 #d64d40;
+}
+
+button:hover {
+  background-color: #ff4d2e;
+  transform: scale(1.05);
+  box-shadow: 0 8px 0 #c63f31;
+}
+
+button:active {
+  transform: translateY(2px); /* Press down by 2px */
+  box-shadow: 0 3px 0 #c63f31; /* Slightly change the shadow */
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

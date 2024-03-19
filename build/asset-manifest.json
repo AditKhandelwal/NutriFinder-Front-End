@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9f4da3a0.css",
+    "main.js": "/static/js/main.699960c7.js",
+    "static/media/comingsoon.png": "/static/media/comingsoon.8bd86601859b3f79e68c.png",
+    "static/media/protein.png": "/static/media/protein.0ae53e1cfea367045863.png",
+    "static/media/low-calorie.png": "/static/media/low-calorie.0f36cc5c2d56cfa95ace.png",
+    "static/media/vegetarian.png": "/static/media/vegetarian.df44d8282b2c8c766ce3.png",
+    "static/media/burger.png": "/static/media/burger.55b0728366475f835eee.png",
+    "index.html": "/index.html",
+    "main.9f4da3a0.css.map": "/static/css/main.9f4da3a0.css.map",
+    "main.699960c7.js.map": "/static/js/main.699960c7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9f4da3a0.css",
+    "static/js/main.699960c7.js"
+  ]
+}

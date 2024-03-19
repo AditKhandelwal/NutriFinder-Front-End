@@ -1,0 +1,68 @@
+.goal-select-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.fire {
+  font-size: 1.5em; /* Adjust the font size as needed */
+  justify-content: center;
+  align-items: center;
+}
+.goal-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #12372A;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.goal-square {
+  background-color: #FBFADA;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  margin: 15px;
+  transition: transform 0.3s ease;
+  width: 200px;
+  height: 250px;
+}
+
+.goal-square:hover {
+  border-color: #ADBC9F ;
+  border: 100px;
+  transform: scale(1.05);
+} 
+
+.goal-square p {
+  color: rgb(5, 129, 40);
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: bold; 
+}
+
+.goal-square:hover p {
+  color: #12372A;
+}
+
+.goal-square img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit:contain;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #ADBC9F;
+  margin-bottom: 20px;
+  font-size: 28px;
+}

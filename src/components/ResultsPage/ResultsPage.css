@@ -1,0 +1,40 @@
+.results-page {
+  text-align: center; /* Center align the content */
+}
+
+.header {
+  margin-top: 100px;
+}
+
+.returnButton {
+  background-color: #0c7a54;;
+}
+
+.places-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  overflow-y: auto; /* Enable vertical scrolling */
+  max-height: 100vh; /* Set a maximum height if needed */
+}
+
+
+.place-box {
+  flex: 0 0 calc(33.33% - 20px); /* Adjust width as needed */
+  /* margin-bottom: 20px; Optional margin between items */
+  margin: 10px;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .place-box {
+    flex-basis: calc(50% - 20px); /* Show two items per row */
+  }
+}
+
+/* Media query for even smaller screens */
+@media (max-width: 480px) {
+  .place-box {
+    flex-basis: calc(100% - 20px); /* Show one item per row */
+  }
+}
